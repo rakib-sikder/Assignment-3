@@ -1,1 +1,144 @@
-pre plan for assignmen-3.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-3</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/caf2e2e181.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: Manrope;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- nav bar -->
+
+    <section class="xl:px-36">
+      <div class="navbar justify-between bg-base-100">
+        <div class="navbar-start w-auto">
+          <a class="btn btn-ghost text-xl"
+            ><i
+              class="fa-solid fa-arrow-right text-base w-6 h-6 -rotate-45 m-auto rounded-full bg-[#ABEF5F]"
+            ></i>
+            Rinterio</a
+          >
+        </div>
+        <div class="w-auto justify-end">
+          <div class="navbar-center hidden xl:flex">
+            <ul class="menu-horizontal px-1 gap-8">
+              <li class="rounded-[32px] p-2 hover:bg-slate-100"><a>Home</a></li>
+              <li class="rounded-[32px] p-2 hover:bg-slate-100">
+                <a>Services</a>
+              </li>
+              <li class="rounded-[32px] p-2 hover:bg-slate-100">
+                <a>Portfolio</a>
+              </li>
+              <li class="rounded-[32px] p-2 hover:bg-slate-100">
+                <a>Blogs</a>
+              </li>
+              <li class="rounded-[32px] p-2 hover:bg-slate-100">
+                <a>Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navbar-end ml-10 w-auto gap-4 hidden md:flex lg:flex">
+            <div class="dropdown dropdown-end m-auto">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn-ghost bg-[#FFFFFF] hover:bg-[#ABEF5F] m-auto rounded-full w-10 h-10 flex items-center justify-center"
+              >
+                <i class="fa-solid fa-cart-shopping text-xl"></i>
+              </div>
+
+              <div
+                class="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow"
+                tabindex="0"
+              >
+                <div class="card-body">
+                  <span class="text-lg font-bold">8 Items</span>
+                  <span class="text-info">Subtotal: $999</span>
+                  <div class="card-actions">
+                    <button class="btn btn-primary btn-block">View cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="btn-ghost bg-[#FFFFFF] hover:bg-[#ABEF5F] m-auto rounded-full w-10 h-10 flex items-center justify-center"
+            >
+              <i class="fa-solid fa-magnifying-glass text-xl"></i>
+            </div>
+            <a class="btn rounded-[32px] bg-[#ABEF5F] font-black text-xl"
+              >Book Consult
+              <i
+                class="fa-solid fa-arrow-right text-base w-6 h-6 -rotate-45 m-auto rounded-full bg-black text-white"
+              ></i
+            ></a>
+          </div>
+
+          <div class="dropdown dropdown-end">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost xl:hidden bg-[#FFFFFF] m-auto rounded-full w-10 h-10 flex items-center justify-center"
+            >
+              <i class="fa-solid fa-bars text-xl"></i>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu-horizontal btn-ghost dropdown grid dropdown-content bg-base-100 rounded-box z-[1] w-64 h-auto shadow"
+            >
+              <li class="md:hidden">
+                <a class="btn rounded-[32px] bg-[#ABEF5F] font-black text-xl"
+                  >Book Consult
+                  <i
+                    class="fa-solid fa-arrow-right text-base w-6 h-6 -rotate-45 m-auto rounded-full bg-black text-white"
+                  ></i
+                ></a>
+              </li>
+              <li class="md:hidden">
+                <div
+                  tabindex="0"
+                  role="button"
+                  class="btn-ghost bg-[#E9E9E9] hover:bg-[#ABEF5F] rounded-full w-10 h-10 flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-cart-shopping text-xl"></i>
+                </div>
+              </li>
+              <li class="md:hidden">
+                <div
+                  class="btn-ghost bg-[#E9E9E9] hover:bg-[#ABEF5F] rounded-full w-10 h-10 flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                </div>
+              </li>
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
